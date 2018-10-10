@@ -28,12 +28,12 @@ ul {
 .profil-photo-wrapper {
     height: 250px;
     width: 100%;
-    padding: 5% 12.5% 5% 12.5%;
+    padding: 15.4px 38px 15.4px 38px;
 }
 
 .profil-photo {
     width: 75%;
-    height: 90%;
+    height: 200px;
     -webkit-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
@@ -113,6 +113,33 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
     min-height: 400px;
     background: #FBFCFC;
     padding: 10px 9px 10px 9px;
+}
+
+.github {
+    color: #273746;
+}
+
+.twitter {
+    color: #3498DB;
+}
+
+.linkedin {
+    color: #2471A3;
+}    
+
+.github:hover {
+    color: #17202A;
+    text-decoration: underline;
+}
+
+.twitter:hover {
+    color: #2E86C1;
+    text-decoration: underline;
+}
+
+.linkedin:hover {
+    color: #1F618D;
+    text-decoration: underline;
 }
 
 
