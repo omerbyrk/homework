@@ -42,7 +42,6 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 .social-links {
     width: 85%;
     height: 40px;
-    border: 1px dashed #ABB2B9;
     margin: 10px 7.5% 3px 7.5%;
 }
 
@@ -64,7 +63,7 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 
 .informations ul {
     background: #D5D8DC;
-    height: 420px;
+    height: 350px;
 }
 
 .informations ul li {
@@ -73,7 +72,7 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 }
 
 .header {
-    height: 316px;
+    height: 261.1px;
 }
 
 .menu-gap {
@@ -81,7 +80,7 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
     flex: 1;
     background: #EAECEE !important;
     margin-top: -1px;
-    height: 21.5px;
+    height: 21.9px;
 }
 
 .menu ul {
@@ -140,6 +139,14 @@ box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
 .linkedin:hover {
     color: #1F618D;
     text-decoration: underline;
+}
+
+.nested-list {
+    margin: 10px 10px 10px 30px;
+}
+
+a {
+    color: blue;
 }
 
 

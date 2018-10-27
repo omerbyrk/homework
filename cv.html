@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <title>CV</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127632956-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127632956-1');
+    </script>
+
+    <script>
+        function toggleNestedList(control) {
+            control.lastElementChild.hidden = !control.lastElementChild.hidden;
+        }
+    </script>
+    <style>
+        strong {
+            cursor: pointer;
+            padding: 3px 5px 3px 5px;
+            border-radius: 3px;
+            user-select: none;
+        }
+
+        strong:hover {
+            background: #ABB2B9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="profil-photo-wrapper">
+                <img class="profil-photo" src="src/img/profil-photo.jpg" />
+            </div>
+            <hr style="margin-top: -20px; margin-bottom: 20px;" />
+            <div class="informations">
+                <ul>
+                    <li style="padding: 0; width: 100%">
+                        <h2 align="center" style="padding: 5px 0 5px 0; margin: 0; background: #ABB2B9">İletişim</h2>
+                    </li>
+                    <li><i class="fa fa-user-o" aria-hidden="true"></i> &nbsp;&nbsp; Ömer Bayrak</li>
+                    <li><i class="fa fa-whatsapp" aria-hidden="true"></i> &nbsp;&nbsp; +90 545 760 7845</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp;&nbsp; omerbayrak@gmail.com</li>
+                    <li><i class="fa fa-key" aria-hidden="true"></i> &nbsp;&nbsp; Gazi university, a student, full
+                        stack developer, java, javascript, nodeJS lover, angular, bootstrap, typescript, spring,
+                        hibernate, a responsible boy</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <div class="links-flex">
+                    <a href="https://github.com/omerbyrk" target="_blank">
+                        <i class="fa fa-github-square github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/omerbyrk8?lang=tr" target="_blank">
+                        <i class="fa fa-twitter-square twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/omerbyrk/" target="_blank">
+                        <i class="fa fa-linkedin-square linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="header">
+                <img width="100%" height="100%" src="src/img/banner.jpg">
+            </div>
+            <hr style="padding: 0; margin: 0" />
+            <div class="body">
+                <div class="menu">
+                    <div class="menu-gap">
+
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="index.html">Öz Geçmiş</a>
+                            </li>
+                            <li>
+                                <a href="ogrenim.html">Öğrenim</a>
+                            </li>
+                            <li>
+                                <a href="projeler.html">Projeler</a>
+                            </li>
+                            <li>
+                                <a href="iletisim.html">İletişim</a>
+                            </li>
+                            <li>
+                                <a href="cv.html">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>CV</h1>
+                    <ul style="padding: 5px">
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Programlama
+                                Dilleri</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> C
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> C++
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> C#
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Java
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Golang
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Dart
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Javascript
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Geliştirilen
+                                Projeler</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Kamu Hastaneler Birliği(KHB)
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> IMEYTAP
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> e-maarif / Okul Kayıt Sistemi
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Katıldığı
+                                Konferanslar</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Uluslar Arası Bilgisayar Bilimi
+                                    ve Mühendisliği Konferansı
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Android Geliştirici Günleri
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Makaleler</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://www.sciencedirect.com/science/article/pii/S1071581984710731"
+                                        target="_blank">Preece, Jenny, and H. Dieter Rombach. "A taxonomy for combining
+                                        software engineering and human-computer interaction measurement approaches:
+                                        towards a common framework." International journal of human-computer studies
+                                        41.4 (1994): 553-583.</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://europepmc.org/abstract/med/9588623"
+                                        target="_blank">Freedson, Patty S., Edward Melanson, and John Sirard.
+                                        "Calibration of the Computer Science and Applications, Inc. accelerometer."
+                                        Medicine and science in sports and exercise 30.5 (1998): 777-781.</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://www.sciencedirect.com/science/article/pii/0304397584901130"
+                                        target="_blank">De Nicola, Rocco, and Matthew CB Hennessy. "Testing
+                                        equivalences for processes." Theoretical computer science 34.1-2 (1984):
+                                        83-133.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Katıldığı
+                                Yarışmalar</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://yarisma.cclub.metu.edu.tr/"
+                                        target="_blank">ODTÜ Bilgisayar Topluluğu 21. Programlama Yarışması</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://www.tubitak.gov.tr/tr/yarismalar/icerik-lise-ogrencileri-arastirma-projeleri-yarismasi"
+                                        target="_blank">Tubitak Proje Yarışması</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Sertifikalar</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=504"
+                                        target="_blank">Oracle Certified Associate, Java SE 7 Programmer</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> <a href="https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=458&get_params=p_track_id:PLSQL"
+                                        target="_blank">Oracle Database PL/SQL Developer Certified Associate</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>İş Tecrübeleri</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Google Inc.<sup><strong>2022-2025</strong></sub>
+                                </li>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Fastsoft Bilişim A.ş.<sup><strong>2018-2022</strong></sub>
+                                </li>
+                            </ul>
+                        </li>
+                        <li onclick="toggleNestedList(this);">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; <strong>Patent</strong>
+                            <ul class="nested-list" hidden>
+                                <li>
+                                    <i class="fa fa-asterisk" aria-hidden="true"></i> Wifi-lex(Saatlik Ücretli Wifi
+                                    Paylaşma Programı).
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
